@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e estou criando meus repositorios!
  oi!
 
- <a href="https://lucassimass.github.io/exercicios/Criação do primeiro site no curso (gabarito)/Site (gabarito)/android.html">Link</a>
+ <a href="https://lucassimass.github.io/exercicios/Cria%C3%A7%C3%A3o%20do%20primeiro%20site%20no%20curso%20(gabarito)/Site%20(gabarito)/android.html">Link</a>
