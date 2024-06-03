@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray ;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px ;
+            margin: 10px;
+        }
+        h1{
+            text-shadow: 8px 1px 5px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: red;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        a:hover{
+            text-decoration: underline 2px;
+        }
+        a:visited{
+            color:rgb(17, 3, 17);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 9px 0px black;
+        }
+        article{
+            background-color: lightgray ;
+        }
+        article > aside{
+            background-color: rgb(163, 163, 163);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+        footer > p {
+            margin: 4px;
+        }
+        div#bola{
+            background-color: darkblue;
+            border-radius: 20px;
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+        #bola:hover{
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" id="governo" target="_blank">link</a>
+            <a href="#" id="fonte" target="_blank">link</a>
+            <a href="#" id="instituição" target="_self">link</a>
+            <a href="#" id="fundos" target="_self">link</a>
+            <a href="#" id="outros" target="_blank">link</a>
+        </nav>
+    </header>
+     <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo velit voluptatibus iure voluptatem quos, eveniet nam cumque voluptate. Laboriosam officia rem optio aliquam voluptas odio delectus vitae sint facere perspiciatis.
+                </p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido por &copy;Lucas Simas</p>
+     </footer>
+     <div id="bola"></div>
+</body>
+</html>

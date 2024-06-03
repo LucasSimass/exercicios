@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        :root{
+            --Cor-Fundo:#808080;
+            --Cor-Fundo-Conteudo: #ffff;
+        }
+        body{
+            background-color: var(--Cor-Fundo);
+        }
+        main{
+            background-color: var(--Cor-Fundo-Conteudo);
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 240px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptate consequatur, deleniti, similique pariatur iste voluptatum iure modi tempore quos doloremque. Itaque illum consequuntur atque laboriosam odio est tempora Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi in reiciendis repudiandae quos debitis suscipit earum expedita, nobis ut tempora dolores est pariatur, tenetur commodi. Ad reprehenderit saepe provident porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus dolores quibusdam reprehenderit adipisci deserunt molestias tempore beatae recusandae assumenda quae aliquid et aspernatur, officiis deleniti, voluptates, laudantium commodi eveniet.</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="../imagens/irina-blok-pq.jpg">
+            <img src="../imagens/irina-blok.jpg" alt="Criadora do Mascote Android">
+        </picture>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa quas eius quae vero deleniti? Ipsum possimus ducimus ad alias exercitationem natus totam minus, maxime at illo, maiores harum libero dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in a delectus minus, sequi nesciunt debitis cum dolorum pariatur necessitatibus repellendus odio laborum incidunt voluptatem repudiandae nam. Nostrum, vel eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae asperiores temporibus repellat labore quae deserunt, et fugiat fuga sit dolore nihil assumenda earum delectus qui exercitationem corporis. Saepe, commodi!</p>
+        <img src="../imagens/bugdroid.png" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est error facilis explicabo placeat unde quos corrupti consequatur aut soluta perferendis! Repellat, in debitis laborum sequi illo id expedita quidem nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias voluptatem nesciunt eos nemo, velit tempore sapiente odit distinctio ea quasi vitae eveniet quibusdam quis voluptate iure cum, quaerat iste.</p>
+    </main>
+</body>
+</html>

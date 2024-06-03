@@ -1,0 +1,35 @@
+
+
+body{
+    background-color: rgb(181, 235, 181);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(4, 78, 4) ;
+}
+
+h1#principal{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(4, 78, 4);
+    color: white;
+}
+
+h2{
+    color: rgb(95, 133, 95) ;
+}
+.basico{
+    color: rgb(23, 145, 23);
+    font-weight: bolder;
+}
+
+.intermediario{
+    color: rgb(179, 171, 66)
+}
+.avancado{
+    color: rgb(104, 28, 28)
+}
+.negrito{
+    color: blue;
+}

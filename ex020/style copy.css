@@ -1,0 +1,16 @@
+body{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    /*Medidas absolutas
+    cm, mm, in, px, pt, pc
+    
+     medidas relativa
+    em, ex, ren, vw, vh, % 
+    16px possivel tamanho padrão
+    16px geralmente = 1em
+    */  
+    font-size: 1em;    
+}
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    /*font: font-style -> font-weight -> font-size -> font-family*/
+}

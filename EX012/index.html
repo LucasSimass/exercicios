@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagemPequena01.png" type="image/x-icon">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir essa imagem com aparelhos diferentes ou tente diminuir o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagemPequena01.png" type="image/png">
+        <source media="(max-width: 820px)" srcset="Paisagem-1.jpg" type="image/jpg">
+        <img src="iloveimg-compressed/Imagem grande01 (1) (2) (1) (1) (1).jpg" alt="Imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML</p>
+    <audio preload="metadata" controls>
+        <source src="Victor & Leo e Malta - Então É Natal.mp3" type="audio/mpeg">
+        <source src="Victor & Leo e Malta - Então É Natal.ogg" type="audio/ogg">
+        <source src="Victor & Leo e Malta - Então É Natal.wav" type="audio/wav">
+        <p>Infelizmente seu computador não consegue acessar os audios do site,Para baixar a musica: <a href="Victor & Leo e Malta - Então É Natal.mp3">Clique aqui</a></p>
+    </audio>
+    
+</body>
+</html>

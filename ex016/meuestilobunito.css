@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkslategray; 
+    font-size: 20px;
+    font-style: italic;         
+}
+h1 {
+    color: white;
+    background-color: rgba(255, 192, 203, 0.644);
+}
+h2 {
+    color: yellowgreen;
+}
+p {
+    text-align: justify;
+    color: yellow;
+    font-style: oblique;
+}
