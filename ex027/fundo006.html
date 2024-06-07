@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         :root{
             --imagem-Fundo: url("Imagens/wallpaper002.jpg");
         }
         body{
             height: 100vh;
+            /*
             margin: 0px;
             background-color: black;
             background-image: var(--imagem-Fundo);
             background-position: center top;
             background-size: cover;
-            background-repeat: repeat;
-            
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            */
+            /*Shorthand-Background
+                color > image > position > / > size > repeat > attachment
+            */
+
+            background: black url("Imagens/wallpaper002.jpg") center center/cover no-repeat fixed
         }
         main{
             background-color: white ;
