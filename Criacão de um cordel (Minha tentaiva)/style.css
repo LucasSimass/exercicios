@@ -21,7 +21,7 @@ header{
 }
 
 header > h1{
-    padding-top: 5%;
+    padding-top: 40px;
     font-weight: bold;
     font-style: normal;
     font-size: 70px;
@@ -46,26 +46,27 @@ header a:hover{
 /*CONTEUDO*/
 article p {
     padding: 80px 80px 70px 50px;
-    width: 200px;
+    width: 300px;
     font-size: 1.6em;
     font-family: "Sriracha",cursive,sans-serif;
 }
 
 article div#imagem1 {
     display: block;
-    height: 600px;
+    height: 500px;
     background-color: grey;
     background-image: url("Imagens/floresta-no-outono.jpg");
     background-size: cover;
-    background-position: center right;
+    background-position: center left;
     background-attachment:fixed;
+    box-shadow: inset 1px 1px 20px 6px black;
 }
 
 article > div > p#texto_imagem {
     background-color: rgba(0, 0, 0, 0.61);
     margin: 10px;
     color: white;
-    height: 450px;
+    height: 350px;
 }
 
 p.paragrafo{
@@ -76,10 +77,11 @@ article div#imagem2{
     background-color: gray;
     background-image: url("Imagens/pessoasEscrevendo.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center top;
     background-attachment: fixed;
-    height: 630px;
+    height: 530px;
     margin: 10px;
+    box-shadow: inset 1px 1px 20px 0px black;
 
 }
 
@@ -87,7 +89,7 @@ article div#imagem2 > p{
     display: block;
     background-color: rgba(0, 0, 0, 0.61);
     color: white;
-    height: 480px;
+    height: 380px;
 }
 
 footer{
