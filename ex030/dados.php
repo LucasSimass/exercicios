@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>php</title>
+    <title>Dados</title>
 </head>
 <body>
-    <h1>Seus dados estão aqui</h1>
+    <h1>oi</h1>
 </body>
 </html>
