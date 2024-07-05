@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Data de nascimento: </legend>
+            <p>
+                <label for="iano">Em que ano você nasceu? </label> <br>
+                <input type="number" name="ano" id="iano" min="1900" max="2024" value="2000" style="width: 10%;"
+                oninput="calcularIdade()">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Resultado: </legend>
+            <p>
+                <label for="idade">Você tem: </label>
+                <output name="idade" id="idade">x anos</output>
+            </p>
+        </fieldset>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <script>
+        var ano = document.getElementById("iano")
+        var idade = document.getElementById("idade")
+        var atual = new Date().getFullYear()
+
+        function calcularIdade(){
+            
+
+            idade.innerHTML = ( Number(atual)- Number(ano.value)) + " anos!"
+        }
+    </script>
+</body>
+</html>

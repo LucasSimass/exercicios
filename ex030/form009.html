@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Numeros: </legend>
+            <p>
+                <label for="in1">Número 1 : </label> <br>
+                <input type="range" name="n1" id="in1" min="0" max="10" value="5" oninput="isoma.innerHTML= Number(in1.value)">
+                <output name="soma" id="isoma">5</output>
+            </p>
+            <p>
+                <label for="in2">Número 2: </label> <br>
+                <input type="range" name="n2" id="in2" min="0" max="10" oninput="isoma2.innerHTML = Number(in2.value)">
+                <output id="isoma2">5</output>
+            </p>
+        </fieldset>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
