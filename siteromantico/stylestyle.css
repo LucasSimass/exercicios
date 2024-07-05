@@ -2,7 +2,6 @@ body{
     background-image: linear-gradient(to top, red,rgb(240, 70, 70));
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
 }
 
 h1{
