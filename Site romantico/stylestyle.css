@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to top, red,rgb(240, 70, 70));
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+main{
+    text-align: center;
+    font-size: 2em;
+}
+
+input{
+    margin-left: 50px;
+}
+
+#b1{
+    margin-left: -20px;
+    width: 200px;
+    height: 50px;
+}
+
+#b2{
+    width: 200px;
+    height: 50px;
+}
